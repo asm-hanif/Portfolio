@@ -18,7 +18,7 @@ app.post("/", function (req, res) {
         service: 'gmail',
         auth: {
             user: 'abusayed1952hanif@gmail.com',
-            pass: 'qaixhaessezoruie', //demo password
+            pass: 'password', //demo password
         }
     })
     var mailOptions = {
@@ -41,3 +41,4 @@ app.post("/", function (req, res) {
 app.listen(3000, function () {
     console.log("server started at 3000");
 });
+
